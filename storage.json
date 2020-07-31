@@ -1,0 +1,16 @@
+{
+    "data":[
+      {
+        "id": 0,
+        "url": "http://admin:admin@192.168.0.100:6969/video",
+        "name": "Stairs Camera",
+        "host": "192.168.0.100"
+      }, 
+        {
+          "id":1,
+          "url":"http://admin:Cam101@192.168.20.101/snapshot.cgi",
+          "name":"Stairs Camera 2 ",
+          "host":"192.168.20.101"
+        }
+    ]
+}
