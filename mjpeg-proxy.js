@@ -99,6 +99,8 @@ const  ProxyMjpeg = exports.ProxyMjpeg = function() {
 
       self.mjpegRequest.on('error', function(e) {
         console.error('problem with request: ', e);
+        self.mjpegRequest.end();
+        res.end();
       });
       self.mjpegRequest.end();
     }
@@ -128,4 +130,5 @@ const  ProxyMjpeg = exports.ProxyMjpeg = function() {
       }
     });
   }
+
 }
