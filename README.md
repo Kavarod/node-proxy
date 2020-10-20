@@ -22,11 +22,8 @@ As shown below:
       {
         "id": 0,
         "url": "http://192.168.20.100/snapshot.cgi",
-        (url of the open new/old camera in the WLAN)
-        !NOTE:I
-        "name": "Stairs Camera"(choose a name by prefrence),
-        "host": "192.168.20.100"(And host by prefrance it can be also company.ex.com 
-            not only ip adresses)
+        "name": "Stairs Camera",
+        "host": "192.168.20.100"
       }
     ] 
 ```
