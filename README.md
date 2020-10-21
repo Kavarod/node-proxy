@@ -1,5 +1,6 @@
 # Node-Proxy
-A simple node proxy for extracting mjepg stream from IP cameras and trowing it to outside
+A simple node proxy for extracting mjepg stream from IP cameras and trowing it to the outside
+It becomes accessible from the internet. 
 
 ## ON Server
 There is a simple node service running on the RPI
@@ -15,7 +16,8 @@ add there the new object as follows:
 
 In the data object make a new object {}
 with these properties as shown down below ( id,url,name,host)
-and than change the values.(NOTE: all of the attributes should be in " " quotes and all of the  values for them too " " Except for id which is without " ")
+and than change the values.
+NOTE: all of the attributes should be in " " quotes and all of the  values for them too " " Except for id which is without " "
 As shown below:
 ```json
  "data":[
